@@ -1,0 +1,28 @@
+body{
+    background-color: #252525;
+    color: #fff;
+    width: screen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 1rem;
+}
+
+.countDown, .userInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: .1rem;
+    gap: .5rem
+}
+
+.userInput {
+    color: #000000;
+
+}
+
+.uiSeconds, .uiMinutes{
+    width: 12%;
+}
